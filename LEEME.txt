@@ -1,0 +1,7 @@
+# PHP: 8.1.6 
+# POSTGREESQL: 16
+
+# Levantar el proyecto
+1. Correr el archivo `script.sql` que esta dentro de la carpeta `/sql`.
+2. Correr el archivo `functions.sql` que esta dentro de la carpeta `/sql`.
+3. Correr el archivo `seed_data.sql` que esta dentro de la carpeta `/sql`.

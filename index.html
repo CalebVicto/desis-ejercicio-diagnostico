@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div id="loading"> Cargando ...</div>
+
+  <form class="form col" id="form-producto">
+    <h1 class="form-title">Formulario de Producto</h1>
+
+    <div class="row">
+      <div class="form-input">
+        <label for="codigo">Código</label>
+        <input type="text" name="codigo" id="codigo">
+      </div>
+
+      <div class="form-input">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-select">
+        <label for="bodega">Bodega</label>
+        <select name="bodega" id="bodega"></select>
+      </div>
+      <div class="form-select">
+        <label for="sucursal">Surcursal</label>
+        <select name="sucursal" id="sucursal"></select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-select">
+        <label for="moneda">Moneda</label>
+        <select name="moneda" id="moneda"></select>
+      </div>
+      <div class="form-input">
+        <label for="precio">Precio</label>
+        <input type="text" name="precio" id="precio">
+      </div>
+    </div>
+
+    <div class="col">
+      <h3 class="form-subtitle">Material del Producto</h3>
+      <div class="row">
+        <div class="form-checkbox">
+          <input type="checkbox" name="plastico" id="plastico">
+          <label for="plastico">Plástico</label>
+        </div>
+        <div class="form-checkbox">
+          <input type="checkbox" name="metal" id="metal">
+          <label for="metal">Metal</label>
+        </div>
+        <div class="form-checkbox">
+          <input type="checkbox" name="madera" id="madera">
+          <label for="madera">Madera</label>
+        </div>
+        <div class="form-checkbox">
+          <input type="checkbox" name="vidrio" id="vidrio">
+          <label for="vidrio">Vidrio</label>
+        </div>
+        <div class="form-checkbox">
+          <input type="checkbox" name="textil" id="textil">
+          <label for="textil">Textil</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-txtarea">
+      <h3 class="form-subtitle">Descripción</h3>
+      <textarea name="descripcion" id="descripcion"></textarea>
+    </div>
+
+    <input type="submit" class="form-submit" value="Guardar Producto">
+
+  </form>
+
+</body>
+
+<script src="./js/utils.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
